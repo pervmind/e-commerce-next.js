@@ -1,0 +1,12 @@
+body{
+  background-color: #0E1214;
+  color: white
+}
+nav{
+  width: max-content;
+  height : 10%;
+  position: relative;
+}
+.navElement{
+  align-items: center;
+}
