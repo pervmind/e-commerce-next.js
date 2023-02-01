@@ -1,12 +1,74 @@
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:border-box;
+  box-sizing: border-box;
+}
 body{
   background-color: #0E1214;
-  color: white
-}
-nav{
-  width: max-content;
-  height : 10%;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  top: 0;
   position: relative;
 }
+
+.nav{
+  background-color: #202124;
+  margin-block-start: 0%;
+  margin-block-end: 0%;
+  padding-inline-start: 10%;
+  top:0;
+  width:100%;
+  display: inline-block;
+  
+}
 .navElement{
-  align-items: center;
+  background-color: #202124;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  cursor: pointer;
+  float: left;
+  margin: 10px;
+  height: 40px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  border-bottom: 2px solid;
+  border-color: #202124;
+  transition-property: border-bottom;
+  transition-duration: 500ms;
+}
+.navElement:hover{
+  border-color: white;
+}
+
+.navContainer ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 40%;
+  display: inline-block;
+  padding-inline-end: 10%;
+}
+#__next{
+  padding: 0;
+  margin:0;
+  top: 0;
+  position:relative;
+}
+div{
+  margin: 0;
+  padding:0;
+}
+.brand {
+  width: 60%;
+  float: left;
+  height:30px;
+}
+.brand .logo{
+  height: 70px;
+  float: left
+}
+.clearfix{
+  clear:both
 }

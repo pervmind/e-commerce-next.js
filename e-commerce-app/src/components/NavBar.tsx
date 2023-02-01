@@ -1,19 +1,19 @@
+/* eslint-disable @next/next/no-img-element */
 export default function NavBar(){
+
     return(
-        <>
-            <nav>
+        <div className="nav">
+            <div className="brand">
+                <img src="samurai white.ico" alt="logo" className="logo"></img>
+                <h1>Katana Store</h1>
+            </div>
+            <div className="navContainer">
                 <ul>
-                    <li className="navElement">
-                        <a href="/">Store</a>
-                    </li>
-                    <li className="navElement">
-                        <a href="/collection/">Katanas</a>
-                    </li>
-                    <li className="navElement">
-                        <a href="/about">About</a>
-                    </li>
+                    <li className="navElement">Katanas</li>
+                    <li className="navElement">About</li>
                 </ul>
-            </nav>
-        </>
+            </div>
+            <div className="clearfix"></div>
+        </div>
     )
 }
