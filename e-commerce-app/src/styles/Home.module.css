@@ -1,0 +1,10 @@
+
+.background{
+    overflow: hidden;
+    padding-bottom: 3cm;
+}
+@media (max-width: 1000px){
+    #homeImage{
+        src:local("/homeWalpaperCropped.jpg")
+    }
+}

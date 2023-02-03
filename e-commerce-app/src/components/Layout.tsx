@@ -4,12 +4,13 @@ import Footer from "./Footer"
 
 export default function Layout({children }: React.PropsWithChildren<{}>){
     return(
-        <div>
+        <div className="pageContainer">
             <NavBar />
             <main>
                 {children}
             </main>
             <Footer />
+            <div className="clearfix"></div>
         </div>
     )
 }
