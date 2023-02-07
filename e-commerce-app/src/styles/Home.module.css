@@ -1,10 +1,27 @@
 
-.background{
-    overflow: hidden;
-    padding-bottom: 3cm;
+.container{
+    color: white;
 }
-@media (max-width: 1000px){
-    #homeImage{
-        src:local("/homeWalpaperCropped.jpg")
+.background{
+    background-image:url("/homeWalpaperfull.jpg");
+    width: 100%;
+    height: 1080px;
+}
+@media(min-width:700px) and (max-width:1000px){
+    .background{
+        background-image: url("/homeWalpaperfullmax700.jpg");
+        height: 700px;
+    }
+}
+@media(min-width: 500px) and (max-width: 700px){
+    .background{
+        background-image: url("/homeWalpaperfullmax500.jpg");
+        height: 500px;
+    }
+}
+@media(max-width: 500px){
+    .background{
+        background-image: url("/homeWalpaperfullmax350.jpg");
+        height: 350px;
     }
 }
