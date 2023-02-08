@@ -1,0 +1,19 @@
+.container{
+    color: grey;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: white;
+    font-family: montserrat;
+}
+.container h1{
+    padding-top: 30px;
+    color:black;
+    text-align: center;
+    border-bottom: 2px solid grey;
+    padding-bottom: 5px;
+}
+.container p{
+    font-size: larger;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}

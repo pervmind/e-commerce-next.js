@@ -95,11 +95,11 @@ body{
 
 
 .footer{
-  background-color: white;
+  background-color: #202124;
+  color:white;
   bottom:0;
   width: 100%;
   box-shadow:2px;
-  position:absolute;
   overflow: hidden;
   height: 3cm;
 }
@@ -128,10 +128,10 @@ body{
 }
 .footer-header{
   margin-left:40px;
-  border-bottom: 2px solid black;
-  color: #202124;
+  border-bottom: 2px solid #a3a7b0;
+  color: #a3a7b0;
 }
 .footer li{
-  color:black;
+  color:white;
   margin-left: 40px;
 }

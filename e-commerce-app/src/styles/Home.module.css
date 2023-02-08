@@ -1,12 +1,41 @@
 
 .container{
-    color: white;
+    color: black;
 }
 .background{
     background-image:url("/homeWalpaperfull.jpg");
     width: 100%;
-    height: 1080px;
+    height: 800px;
 }
+
+.offer{
+    width: 100%;
+    height: 25px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: white;
+    color: rgb(216, 0, 0);
+    text-transform: capitalize;
+}
+.button{
+    border: 2px solid;
+    border-color: aliceblue;
+    color: aliceblue;
+    font-weight:500;
+    float: right;
+    margin-right: 20%;
+    margin-top: 25%;
+    padding: 20px 40px;
+    text-transform: uppercase;
+    font-family: montserrat;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.button:hover{
+    border-color: #5c0209;
+    color:#5c0209;
+}
+
 @media(min-width:700px) and (max-width:1000px){
     .background{
         background-image: url("/homeWalpaperfullmax700.jpg");
@@ -24,4 +53,40 @@
         background-image: url("/homeWalpaperfullmax350.jpg");
         height: 350px;
     }
+}
+
+.homeContainer{
+    background-color: white;
+    width: 100%;
+    height:auto;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-family: montserrat;
+    padding-bottom: 30px;
+}
+.flex h1 {
+    text-align: center;
+    padding-top: 10px;
+    border-bottom: 2px solid grey;
+}
+.flex p{
+    color: black;
+    font-size: large;
+    padding-top: 10px;
+    
+}
+.aboutButton{
+    border: 2px solid;
+    border-color: black;
+    margin-left: 40%;
+    margin-top: 10px;
+    margin-right: 40%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition-duration: 0.5s;
+}
+.aboutButton:hover{
+    border-color: #090072;
+    color:#090072;
 }
