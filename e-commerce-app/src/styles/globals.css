@@ -10,6 +10,9 @@ body{
   background-color: #202124;
   padding-top: 80px;
 }
+.layoutContainer{
+  padding-bottom: 3cm;
+}
 
 .pageContainer{
   position: relative;
@@ -102,6 +105,7 @@ body{
   box-shadow:2px;
   overflow: hidden;
   height: 3cm;
+  position: absolute;
 }
 .footer .pages{
   width: 25%;
